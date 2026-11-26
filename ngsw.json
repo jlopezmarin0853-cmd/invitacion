@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1795669671392,
+  "timestamp": 1795670043720,
   "index": "/invitacion/index.html",
   "assetGroups": [
     {
@@ -14,10 +14,10 @@
         "/invitacion/chunk-2NFLSA4Y.js",
         "/invitacion/chunk-FNOSJO7W.js",
         "/invitacion/chunk-MCQJVZP7.js",
-        "/invitacion/chunk-XAKDGF5B.js",
+        "/invitacion/chunk-TOH3XDTS.js",
         "/invitacion/favicon.ico",
         "/invitacion/index.html",
-        "/invitacion/main-R23HQNNF.js",
+        "/invitacion/main-XEH5EI3G.js",
         "/invitacion/manifest.webmanifest",
         "/invitacion/styles-JSIAZSUD.css"
       ],
@@ -117,7 +117,7 @@
     "/invitacion/chunk-2NFLSA4Y.js": "a26cd3e959939fe26b8cfc160ad681ba7b6b4468",
     "/invitacion/chunk-FNOSJO7W.js": "74eb0306b2dfc79c949d210c7b254af9ac4af5a2",
     "/invitacion/chunk-MCQJVZP7.js": "eb5ff03b4782463e670a7de8951e72fa9865234b",
-    "/invitacion/chunk-XAKDGF5B.js": "fca603589ce24264a627d5c3d4087fae707cefcf",
+    "/invitacion/chunk-TOH3XDTS.js": "d66a03fc6d398de6e908c7d6fa57841b0da97af7",
     "/invitacion/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "/invitacion/floral/bottom-left.png": "cab1904eb3b041429c25f23d1edd5e08267eb110",
     "/invitacion/floral/floral-corners.png": "4645a4392d0dae4f090764e0002b4aed1fa0ca8d",
@@ -193,8 +193,8 @@
     "/invitacion/images/foto 4.jpeg": "54fe546afc7116e601b9ad13c479f79281b3c501",
     "/invitacion/images/foto1.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
     "/invitacion/images/paper-texture.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
-    "/invitacion/index.html": "56e4dcffb5dadfbd9bfa1401d88867db5ee4b3e1",
-    "/invitacion/main-R23HQNNF.js": "e220738196f8c288fb25e2827c73cc7910830b42",
+    "/invitacion/index.html": "759ddc934012330ba427e3bd9850d749e9a7ffae",
+    "/invitacion/main-XEH5EI3G.js": "3ff4d7babd57d55d07f644069c50a7bb74befe79",
     "/invitacion/manifest.webmanifest": "95a10b23f09463ec2318bca1c27954dbeba79f38",
     "/invitacion/preview.png": "04ea2fc6cf1ea903a13d95e745821042075a9d3e",
     "/invitacion/styles-JSIAZSUD.css": "e5de657554ea74feec1217081238d9e3f3fef285",
