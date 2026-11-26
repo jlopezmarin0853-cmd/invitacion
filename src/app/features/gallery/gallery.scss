@@ -1,0 +1,341 @@
+.gallery-section {
+
+  position: relative;
+
+  padding: 140px 20px;
+
+  background: #FAF7F0;
+
+  overflow: hidden;
+
+}
+
+/* HOJAS DECORATIVAS */
+
+.gallery-section::before {
+
+  content: '';
+
+  position: absolute;
+
+  inset: 0;
+
+  background-image:
+    url('/images/olive-pattern-light.png');
+
+  background-size: 450px;
+
+  opacity: .08;
+
+  pointer-events: none;
+
+}
+
+/* HEADER */
+
+.gallery-header {
+
+  position: relative;
+
+  z-index: 2;
+
+  text-align: center;
+
+  max-width: 700px;
+
+  margin: 0 auto 80px;
+
+}
+
+.gallery-header span {
+
+  display: block;
+
+  margin-bottom: 16px;
+
+  color: #B4975A;
+
+  letter-spacing: 6px;
+
+  text-transform: uppercase;
+
+  font-size: .95rem;
+
+}
+
+.gallery-header h2 {
+
+  margin: 0;
+
+  font-family:
+    'Cormorant Garamond',
+    serif;
+
+  font-size:
+    clamp(
+      3rem,
+      6vw,
+      5.5rem
+    );
+
+  color: #556B2F;
+
+}
+
+.gallery-description {
+
+  max-width: 650px;
+
+  margin: 30px auto 0;
+
+  color: #727272;
+
+  line-height: 1.9;
+
+  font-size: 1.05rem;
+
+}
+
+/* CONTENEDOR */
+
+.gallery-slider {
+
+  position: relative;
+
+  z-index: 2;
+
+  max-width: 700px;
+
+  margin:0 auto;
+
+}
+
+/* SWIPER */
+
+swiper-container {
+
+  width: 100%;
+
+}
+
+/* SLIDE */
+
+swiper-slide {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 20px;
+
+}
+
+/* MARCO PREMIUM */
+
+swiper-slide a {
+
+  display: block;
+
+  width: 100%;
+
+  padding: 14px;
+
+  background: rgba(255,255,255,.75);
+
+  backdrop-filter: blur(10px);
+
+  border-radius: 40px;
+
+  border:
+
+    1px solid rgba(194,165,106,.12);
+
+  box-shadow:
+
+    0 25px 60px rgba(0,0,0,.06),
+
+    0 10px 20px rgba(0,0,0,.04);
+
+}
+
+/* IMAGEN */
+
+swiper-slide img {
+
+  width: 100%;
+
+  height: auto;
+
+  display: block;
+
+  border-radius: 28px;
+
+  transition:
+
+    transform .9s ease,
+
+    filter .9s ease;
+
+}
+
+/* EFECTO PREMIUM */
+
+swiper-slide-active img,
+.swiper-slide-active img {
+
+  transform: scale(1.02);
+
+}
+
+/* FLECHAS */
+
+// swiper-container::part(button-prev),
+// swiper-container::part(button-next) {
+
+//   color: #556B2F;
+
+//   width: 52px;
+
+//   height: 52px;
+
+//   border-radius: 50%;
+
+//   background:
+
+//     rgba(255,255,255,.92);
+
+//   backdrop-filter: blur(8px);
+
+//   box-shadow:
+
+//     0 8px 20px rgba(0,0,0,.08);
+
+// }
+
+/* OCULTAR FLECHAS */
+
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+
+  display: none;
+
+}
+
+/* PAGINACIÓN */
+swiper-container::part(bullet){
+
+  width:12px;
+
+  height:12px;
+
+  background:#C2A56A;
+
+  opacity:.5;
+
+}
+ swiper-container::part(bullet-active){
+
+  background:#556B2F;
+
+  opacity:1;
+
+  transform:scale(1.2);
+
+}
+
+/* DIVISORES */
+
+.gallery-section::after {
+
+  content: '';
+
+  display: block;
+
+  width: 140px;
+
+  height: 1px;
+
+  background: #C2A56A;
+
+  margin: 80px auto 0;
+
+}
+
+/* TABLET */
+
+@media (max-width: 992px) {
+
+  .gallery-slider {
+
+    max-width: 800px;
+
+  }
+
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .gallery-section {
+
+    padding: 100px 20px;
+
+  }
+
+  .gallery-header {
+
+    margin-bottom: 50px;
+
+  }
+
+  .gallery-header h2 {
+
+    font-size: 3.5rem;
+
+  }
+
+  .gallery-description {
+
+    font-size: 1rem;
+
+    line-height: 1.8;
+
+  }
+
+  swiper-slide {
+
+    padding: 10px;
+
+  }
+
+  swiper-slide a {
+
+    padding: 10px;
+
+    border-radius: 28px;
+
+  }
+
+  swiper-slide img {
+
+    border-radius: 20px;
+
+  }
+
+  // swiper-container::part(button-prev),
+  // swiper-container::part(button-next) {
+
+
+
+  //   width: 44px;
+
+  //   height: 44px;
+
+  // }
+
+}
+
+

@@ -1,0 +1,238 @@
+.invitation-section {
+
+  max-width: 900px;
+  margin-top:-50px;
+  margin: 0 auto;
+  padding-top: 140px;
+
+  padding: 120px 30px 80px;
+
+  text-align: center;
+
+  position: relative;
+
+  z-index: 10;
+
+}
+
+/* VERSÍCULO */
+
+.quote-block {
+
+  margin-bottom: 40px;
+
+}
+
+.verse {
+
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size:
+  clamp(
+    1.8rem,
+    2.5vw,
+    2.2rem
+  );
+
+  line-height: 1.8;
+
+  color: #556B2F;
+
+  max-width: 750px;
+  margin: 0 auto;
+
+}
+
+.quote-block span {
+
+  display: block;
+
+  margin-top: 12px;
+
+  color: #B4975A;
+
+  letter-spacing: 3px;
+
+  text-transform: uppercase;
+
+  font-size: .9rem;
+
+}
+
+/* MENSAJE */
+
+.message-block {
+
+  margin-bottom: 50px;
+
+}
+
+.message-block p {
+
+  font-size: 1.15rem;
+
+  line-height: 1.9;
+
+  color: #5c5c5c;
+
+  margin: 0;
+
+}
+
+/* PADRES */
+
+.parents-block {
+
+  margin-bottom: 50px;
+
+}
+
+.parents-block > p {
+
+  margin-bottom: 30px;
+
+  font-size: 1rem;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+  color: #666;
+
+}
+
+.parents-block h3 {
+
+  margin: 12px 0;
+
+  font-family: 'Cormorant Garamond', serif;
+
+  font-size:
+    clamp(
+      2.2rem,
+      4vw,
+      3rem
+    );
+
+  font-weight: 400;
+
+  line-height: 1.3;
+
+  color: #556B2F;
+
+}
+
+.parents-block span {
+
+  display: block;
+
+  margin: 20px 0;
+
+  font-size: 2.5rem;
+
+  color: #C2A56A;
+
+}
+
+/* CIERRE */
+
+.closing {
+
+  max-width: 700px;
+
+  margin: 0 auto;
+
+  font-size: 1.15rem;
+
+  line-height: 1.9;
+
+  color: #556B2F;
+
+  font-style: italic;
+
+}
+
+/* MÓVIL */
+
+@media (max-width: 768px) {
+
+  .invitation-section {
+
+    padding: 40px 25px 60px;
+
+  }
+
+  .quote-block {
+
+    margin-bottom: 30px;
+
+  }
+
+  .message-block {
+
+    margin-bottom: 40px;
+
+  }
+
+  .parents-block {
+
+    margin-bottom: 40px;
+
+  }
+
+  .parents-block span {
+
+    margin: 15px 0;
+
+  }
+
+}
+.quote-block{
+
+  display:block !important;
+
+  opacity:1 !important;
+
+  visibility:visible !important;
+
+}
+
+.verse{
+
+  font-size:
+    clamp(
+      1.6rem,
+      2.5vw,
+      2.2rem
+    );
+
+  max-width:750px;
+
+  margin:auto;
+
+}
+
+.ornament{
+
+  font-size:2rem;
+
+  color:#C2A56A;
+
+  margin:40px 0;
+
+}
+
+.section-divider{
+
+  width:120px;
+
+  height:1px;
+
+  background:#C2A56A;
+
+  margin:0 auto 70px;
+
+  margin-bottom: 60px;
+
+
+}

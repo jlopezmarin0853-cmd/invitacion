@@ -1,0 +1,22 @@
+<div
+class="music-player"
+(click)="toggleMusic()">
+
+  <div
+  class="equalizer"
+  [class.playing]="isPlaying">
+
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+
+  </div>
+
+  <div class="icon">
+
+      {{ isPlaying ? '❚❚' : '▶' }}
+
+  </div>
+
+</div>

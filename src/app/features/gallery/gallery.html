@@ -1,0 +1,52 @@
+<section class="gallery-section">
+
+  <div class="gallery-header">
+
+    <span>
+      Nuestros Recuerdos
+    </span>
+
+    <h2>
+      Galería
+    </h2>
+
+    <p class="gallery-description">
+
+      Algunos momentos que han marcado
+      nuestro camino juntos y que guardaremos
+      para siempre en nuestros corazones.
+
+    </p>
+
+  </div>
+
+  <div
+    id="gallery"
+    class="gallery-slider">
+
+
+
+<swiper-container
+
+  #swiper
+  init="false">
+
+  <swiper-slide
+    *ngFor="let photo of photos">
+
+    <a [href]="photo">
+
+      <img
+        [src]="photo"
+        alt="Galería">
+
+    </a>
+
+  </swiper-slide>
+
+</swiper-container>
+
+
+  </div>
+
+</section>

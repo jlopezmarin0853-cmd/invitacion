@@ -1,0 +1,310 @@
+.hero{
+
+  position:relative;
+
+  min-height:100vh;
+
+  display:flex;
+
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+
+  overflow:hidden;
+
+}
+.hero-background{
+
+  position:absolute;
+
+  background-position:
+    60% center;
+
+
+  inset:0;
+
+  background-image:
+  url('/images/foto1.jpeg');
+
+  background-size:cover;
+
+  background-position:center;
+
+  filter:
+
+  blur(2px)
+
+  brightness(.55);
+
+  transform:scale(1.08);
+
+}
+
+.hero-overlay{
+
+  background:
+
+    radial-gradient(
+
+      circle,
+
+      rgba(85,107,47,.15),
+
+      rgba(0,0,0,.55)
+
+    );
+
+}
+
+.monogram,
+h1,
+p{
+
+  opacity:1;
+
+}
+
+
+.hero-content{
+
+  position:relative;
+
+  z-index:5;
+
+  width:100%;
+
+  max-width:900px;
+
+  margin:auto;
+
+  display:flex;
+
+  flex-direction:column;
+
+  align-items:center;
+
+  justify-content:center;
+
+  text-align:center;
+
+  transform:
+  translateX(-180px);
+
+}
+
+
+.hero-content{
+
+  backdrop-filter:
+    blur(3px);
+
+  background:
+    rgba(255,255,255,.04);
+
+  border:
+
+  1px solid
+
+rgba(255,255,255,.12);
+
+  border-radius:40px;
+
+  padding:60px;
+
+}
+
+.overlay{
+
+width:100%;
+
+padding:20px;
+
+}
+
+.monogram{
+
+  width:90px;
+
+  opacity:.9;
+
+  margin-bottom:12px;
+
+}
+
+h1{
+
+  font-family:
+  'Great Vibes',
+  cursive;
+
+  font-size:
+  clamp(
+    4rem,
+    8vw,
+    8rem
+  );
+
+  color:white;
+
+  text-align:center;
+
+  line-height:1.05;
+
+  margin:0;
+
+  max-width:900px;
+  text-shadow:
+
+  0 4px 20px
+  rgba(0,0,0,.25);
+
+}
+
+h1{
+
+  text-shadow:
+
+    0 3px 10px rgba(0,0,0,.25);
+
+}
+
+h1 span{
+
+display:block;
+
+margin:12px 0;
+
+}
+
+p{
+
+color:white;
+
+font-size:1.3rem;
+
+letter-spacing:2px;
+
+opacity:1;
+
+}
+
+.scroll-indicator{
+
+  position:absolute;
+
+  left:50%;
+
+  bottom:40px;
+
+  transform:translateX(-50%);
+
+  z-index:20;
+
+}
+
+.scroll-indicator span{
+
+display:block;
+
+width:24px;
+
+height:40px;
+
+border:2px solid white;
+
+border-radius:30px;
+
+position:relative;
+
+}
+
+.scroll-indicator span::before{
+
+content:'';
+
+width:6px;
+height:6px;
+
+background:white;
+
+border-radius:50%;
+
+position:absolute;
+
+left:50%;
+top:8px;
+
+transform:
+translateX(-50%);
+
+animation:
+scroll 2s infinite;
+
+}
+
+@keyframes scroll{
+
+0%{
+
+opacity:0;
+top:8px;
+
+}
+
+50%{
+
+opacity:1;
+
+}
+
+100%{
+
+opacity:0;
+top:24px;
+
+}
+
+}
+#weddingDate{
+
+  margin-top:35px;
+  margin-bottom:40px;
+
+}
+
+
+.hero-subtitle{
+
+  font-size:1rem;
+
+  letter-spacing:8px;
+
+  text-transform:uppercase;
+
+  color:#F5E6C8;
+
+  margin-bottom:20px;
+
+}
+#weddingDate{
+
+  text-shadow:
+
+    0 2px 6px rgba(0,0,0,.3);
+
+}
+
+.hero-background{
+
+  filter:
+
+  grayscale(.35)
+
+  sepia(.10)
+
+  blur(2px)
+
+  brightness(.55);
+
+}

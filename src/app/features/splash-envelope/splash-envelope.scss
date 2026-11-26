@@ -1,0 +1,847 @@
+.splash-root {
+
+  position:fixed;
+
+  inset:0;
+
+  background:
+
+url('/images/paper-texture.jpg');
+
+background-size:cover;
+
+background-position:center;
+
+  z-index:9999;
+
+}
+
+.three-container {
+
+  width:100%;
+  height:100%;
+
+}
+
+.ui-layer {
+
+  position:absolute;
+  inset:0;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:center;
+  align-items:center;
+}
+
+// .seal{
+
+// position:absolute;
+
+// left:50%;
+
+// top:50%;
+
+// transform:
+// translate(-50%,-50%);
+
+// width:90px;
+
+// height:90px;
+
+// cursor:pointer;
+
+// z-index:20;
+
+// }
+
+.seal{
+
+  position:absolute;
+
+  left:50%;
+  top:58%;
+
+  transform:
+  translate(-50%,-50%);
+
+  width:88px;
+  height:88px;
+
+  z-index:15;
+
+  cursor:pointer;
+
+}
+.seal-metal{
+
+  width:100%;
+  height:100%;
+
+  border-radius:50%;
+   position:relative;
+
+  overflow:hidden;
+
+  background:
+
+  radial-gradient(
+
+    circle at 30% 25%,
+
+    #f7de9d,
+
+    #d7a445 45%,
+
+    #9d6820 100%
+
+  );
+
+  box-shadow:
+
+  0 10px 25px
+  rgba(0,0,0,.25),
+
+  inset 0 2px 3px
+  rgba(255,255,255,.7),
+
+  inset 0 -8px 15px
+  rgba(0,0,0,.22);
+
+}
+
+.seal-metal::before{
+
+  content:'';
+
+  position:absolute;
+
+  inset:0;
+
+  border-radius:50%;
+
+  background:
+
+  radial-gradient(
+    rgba(255,255,255,.15) 1px,
+    transparent 1px
+  );
+
+  background-size:
+  8px 8px;
+
+  opacity:.25;
+
+  mix-blend-mode:overlay;
+
+}
+
+.seal-emblem{
+
+  position:absolute;
+
+  inset:0;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  color:#764c11;
+
+  font-size:2rem;
+
+  text-shadow:
+
+  0 1px 0 #ffebac,
+
+  0 -1px 0 rgba(0,0,0,.25);
+
+}
+
+.seal-metal::after{
+
+  content:'';
+
+  position:absolute;
+
+  inset:0;
+
+  border-radius:50%;
+
+  background:
+
+  radial-gradient(
+
+  circle at 20% 20%,
+
+  rgba(255,255,255,.25),
+
+  transparent 30%
+
+  ),
+
+  radial-gradient(
+
+  circle at 75% 70%,
+
+  rgba(0,0,0,.12),
+
+  transparent 25%
+
+  );
+
+}
+
+.seal-ring{
+
+  position:absolute;
+
+  inset:0;
+
+  border-radius:50%;
+
+}
+
+.seal-ring::before{
+
+  content:'';
+
+  position:absolute;
+
+  inset:3px;
+
+  border-radius:50%;
+
+  background:
+
+  repeating-conic-gradient(
+
+    from 0deg,
+
+    rgba(255,255,255,.45)
+    0deg 2deg,
+
+    rgba(0,0,0,.05)
+    2deg 4deg
+
+  );
+
+  mask:
+
+  radial-gradient(
+
+    circle,
+
+    transparent 62%,
+
+    black 63%
+
+  );
+
+}
+
+.seal-emblem{
+
+  color:#7B5316;
+
+  text-shadow:
+
+  0 1px 0 #ffebb0,
+
+  0 2px 2px rgba(255,255,255,.3),
+
+  0 -2px 2px rgba(0,0,0,.25);
+
+}
+
+.seal-shine{
+
+  position:absolute;
+
+  inset:0;
+
+  border-radius:50%;
+
+  overflow:hidden;
+
+}
+
+.seal-shine::before{
+
+  content:'';
+
+  position:absolute;
+
+  top:-30%;
+
+  left:-80%;
+
+  width:50%;
+
+  height:160%;
+
+  background:
+
+  linear-gradient(
+
+  90deg,
+
+  transparent,
+
+  rgba(255,255,255,.45),
+
+  transparent
+
+  );
+
+  transform:rotate(20deg);
+
+}
+.envelope{
+
+width:420px;
+
+height:270px;
+
+background:
+linear-gradient(
+  rgba(122,141,104,.92),
+  rgba(122,141,104,.92)
+),
+
+url('/images/paper-texture.png');
+
+background-size:
+
+cover,
+400px;
+
+background-blend-mode:
+multiply;
+
+position:relative;
+z-index:10;
+overflow:visible;
+box-shadow:
+
+0 30px 60px
+rgba(0,0,0,.18),
+
+0 10px 20px
+rgba(0,0,0,.08),
+
+inset 0 1px 0
+rgba(255,255,255,.18),
+
+inset 0 -6px 10px
+rgba(0,0,0,.05);
+
+border-radius:2px;
+
+border:
+
+  1px solid
+
+  rgba(
+  90,
+  100,
+  70,
+  .25
+  );
+
+}
+
+.envelope::before{
+
+  content:'';
+
+  position:absolute;
+
+  inset:0;
+
+  background:
+
+  url('/images/paper-texture.png');
+
+  background-size:300px;
+
+  opacity:.18;
+
+  mix-blend-mode:soft-light;
+
+  pointer-events:none;
+
+}
+
+.envelope::after{
+
+  content:'';
+
+  position:absolute;
+
+  inset:2px;
+
+  border-radius:2px;
+
+  box-shadow:
+
+  inset 0 1px 2px
+  rgba(255,255,255,.12),
+
+  inset 0 -2px 6px
+  rgba(0,0,0,.08);
+
+  pointer-events:none;
+
+}
+
+.envelope-stitch{
+
+position:absolute;
+
+bottom:0;
+
+left:50%;
+
+transform:
+translateX(-50%);
+
+width:2px;
+
+height:50%;
+
+background:
+
+rgba(
+255,
+255,
+255,
+.08
+);
+
+}
+.flap{
+
+position:absolute;
+
+top:0;
+
+left:0;
+z-index:6;
+
+width:100%;
+height:100%;
+
+background:
+linear-gradient(
+
+135deg,
+
+#859473,
+
+#738161
+
+),
+
+url('/images/paper-texture.png');
+
+background-size:
+cover,300px;
+
+background-blend-mode:
+multiply;
+
+clip-path:
+
+polygon(
+0 0,
+100% 0,
+50% 55%
+);
+
+}
+.floral{
+
+  position:absolute;
+
+  pointer-events:none;
+
+  user-select:none;
+
+  z-index:1;
+
+}
+
+.floral-top{
+
+   top:10px;
+
+  right:25px;
+
+  width:300px;
+
+}
+
+.floral-bottom{
+
+  left:40px;
+
+  bottom:80px;
+
+  width:280px;
+
+
+
+}
+// .invitation-card{
+
+// position:absolute;
+
+// bottom:15px;
+
+// left:50%;
+
+// transform:
+// translateX(-50%);
+
+// width:85%;
+
+// height:220px;
+
+// background:#FFFDF7;
+
+// border-radius:8px;
+
+// opacity:0;
+
+// display:flex;
+
+// flex-direction:column;
+
+// justify-content:center;
+
+// align-items:center;
+
+// }
+
+.invitation-card{
+
+  position:absolute;
+
+  left:50%;
+
+  bottom:-290px;
+
+  width:78%;
+
+  height:340px;
+  transform:translateX(-50%);
+  opacity: 0;
+
+
+  background:
+    url('/images/paper-texture.png'),
+    #fffdf8;
+
+  background-size:400px;
+
+  border-radius:12px;
+
+  display:flex;
+
+  flex-direction:column;
+
+  justify-content:center;
+
+  align-items:center;
+  padding-top:40px;
+  gap:12px;
+
+  z-index:3;
+
+  box-shadow:
+
+    0 10px 20px rgba(0,0,0,.08);
+
+}
+
+.invitation-card h2{
+
+  margin-top:15px;
+
+  padding:0 20px;
+
+  text-align:center;
+
+  line-height:1.2;
+
+  font-family:
+    'Great Vibes',
+    cursive;
+
+  font-size:2rem;
+
+  color:#556B2F;
+
+}
+
+.card-divider{
+
+  width:80px;
+
+  height:1px;
+
+  background:#C2A56A;
+
+  margin:15px 0;
+
+}
+.card-monogram{
+
+  width:60px;
+
+  height:60px;
+
+  border-radius:50%;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  border:
+
+  2px solid #C2A56A;
+
+  color:#C2A56A;
+
+  margin-bottom:15px;
+
+}
+
+.envelope-wrapper{
+
+  position:relative;
+
+  inset:0;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+}
+.instruction{
+
+  position:absolute;
+
+  bottom:120px;
+
+  left:50%;
+
+  transform:translateX(-50%);
+
+  font-family:
+  'Cormorant Garamond',
+  serif;
+
+  letter-spacing:3px;
+
+  font-size:1.2rem;
+
+  color:#7A6A51;
+
+}
+@media(max-width:768px){
+
+  .envelope{
+
+    width:320px;
+
+    height:205px;
+
+  }
+
+}
+.luxury-splash{
+
+  position:fixed;
+
+  inset:0;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  background:#f6f2ec;
+
+  overflow:hidden;
+
+   background-image:
+  url('/images/paper-texture.png');
+
+  background-repeat:
+  repeat;
+
+  background-size:
+  600px;
+
+  background-position:
+  center;
+
+  z-index:9999;
+
+  background:
+  linear-gradient(
+    180deg,
+    #f7f4ee,
+    #efebe4
+  );
+
+}
+.luxury-splash::before{
+
+  content:'';
+
+  position:absolute;
+
+  inset:0;
+
+  background:
+
+  linear-gradient(
+    rgba(255,255,255,.08),
+    rgba(255,255,255,.02)
+  );
+
+  pointer-events:none;
+
+}
+.card-slot{
+
+  position:absolute;
+
+  inset:0;
+
+  z-index:2;
+
+  pointer-events:none;
+
+}
+.floral{
+
+  position:absolute;
+
+  z-index:25;
+
+  pointer-events:none;
+
+}
+.floral-bottom{
+
+  position:absolute;
+
+  left:10px;
+
+  bottom:40px;
+
+  width:320px;
+
+  z-index:25;
+
+}
+
+.floral-top{
+
+  position:absolute;
+
+  right:20px;
+
+  top:10px;
+
+  width:320px;
+
+  z-index:25;
+
+}
+.card-monogram,
+.invitation-card h2,
+.invitation-card p,
+.card-divider{
+
+  opacity:0;
+
+}
+.invitation-card{
+
+  opacity:0;
+
+}
+@media (max-width: 768px) {
+
+  .invitation-card {
+
+    width: 88%;
+
+    height: 200px;
+
+    bottom: -190px;
+
+    padding: 20px;
+
+  }
+
+  .card-monogram {
+
+    width: 45px;
+    height: 45px;
+
+    font-size: 1rem;
+
+    margin-bottom: 10px;
+
+  }
+
+  .invitation-card h2 {
+
+    font-size: 1.5rem;
+
+    line-height: 1.1;
+
+  }
+
+  .card-divider {
+
+    width: 60px;
+
+    margin: 10px 0;
+
+  }
+
+  .invitation-card p {
+
+    font-size: .9rem;
+
+    letter-spacing: 2px;
+
+  }
+
+}
+
+.luxury-splash.hidden {
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  pointer-events: none;
+
+}
