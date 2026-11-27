@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1795753783958,
+  "timestamp": 1795754465018,
   "index": "/invitacion/index.html",
   "assetGroups": [
     {
@@ -12,12 +12,12 @@
       },
       "urls": [
         "/invitacion/chunk-2NFLSA4Y.js",
+        "/invitacion/chunk-BSMC334E.js",
         "/invitacion/chunk-FNOSJO7W.js",
         "/invitacion/chunk-MCQJVZP7.js",
-        "/invitacion/chunk-W4QVV7FB.js",
         "/invitacion/favicon.ico",
         "/invitacion/index.html",
-        "/invitacion/main-5DSD4VRW.js",
+        "/invitacion/main-G6PRSEZG.js",
         "/invitacion/manifest.webmanifest",
         "/invitacion/styles-UOZKIAWY.css"
       ],
@@ -109,6 +109,7 @@
         "/invitacion/images/paper-texture.png",
         "/invitacion/media/foto1-NLUIMDKQ.jpeg",
         "/invitacion/media/paper-texture-ZLQZ2DFX.png",
+        "/invitacion/preview-whatsapp.jpg",
         "/invitacion/preview.png",
         "/invitacion/svg/cj-monogram.svg",
         "/invitacion/svg/wax-seal.svg"
@@ -125,9 +126,9 @@
     "/invitacion/assets/images/foto1.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
     "/invitacion/assets/images/paper-texture.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
     "/invitacion/chunk-2NFLSA4Y.js": "a26cd3e959939fe26b8cfc160ad681ba7b6b4468",
+    "/invitacion/chunk-BSMC334E.js": "9de0e2227d69b33456de1c38ed56d2f4adfa9787",
     "/invitacion/chunk-FNOSJO7W.js": "74eb0306b2dfc79c949d210c7b254af9ac4af5a2",
     "/invitacion/chunk-MCQJVZP7.js": "eb5ff03b4782463e670a7de8951e72fa9865234b",
-    "/invitacion/chunk-W4QVV7FB.js": "e3e03b0a41ada6b74cfa7112be23fa141130c7c4",
     "/invitacion/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "/invitacion/floral/bottom-left.png": "cab1904eb3b041429c25f23d1edd5e08267eb110",
     "/invitacion/floral/floral-corners.png": "4645a4392d0dae4f090764e0002b4aed1fa0ca8d",
@@ -199,11 +200,12 @@
     "/invitacion/images/beso.jpeg": "e9d36a2d4423185498868d6b15d930c7bf41adb7",
     "/invitacion/images/foto1.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
     "/invitacion/images/paper-texture.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
-    "/invitacion/index.html": "e02d71575bde2615b76c2884cb3f36a841bf176d",
-    "/invitacion/main-5DSD4VRW.js": "34767dc58de83dad57e213f9a86970dd78cd7c96",
+    "/invitacion/index.html": "0e42cee265a5addbdc1240a63a63b0c155c205d2",
+    "/invitacion/main-G6PRSEZG.js": "aef141bac6b62bfee0ca577923bf60267adc215d",
     "/invitacion/manifest.webmanifest": "95a10b23f09463ec2318bca1c27954dbeba79f38",
     "/invitacion/media/foto1-NLUIMDKQ.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
     "/invitacion/media/paper-texture-ZLQZ2DFX.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
+    "/invitacion/preview-whatsapp.jpg": "2cdd63d292b81192c4c99c994ecd052918857cc9",
     "/invitacion/preview.png": "04ea2fc6cf1ea903a13d95e745821042075a9d3e",
     "/invitacion/styles-UOZKIAWY.css": "dc012cf200d5c374226a50b857dab608c3837d1c",
     "/invitacion/svg/cj-monogram.svg": "8c39bf0c25c8dabc4fc62be174b20cb3511f5044",
