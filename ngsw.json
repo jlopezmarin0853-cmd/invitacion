@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1795756910400,
+  "timestamp": 1795757270687,
   "index": "/invitacion/index.html",
   "assetGroups": [
     {
@@ -12,12 +12,12 @@
       },
       "urls": [
         "/invitacion/chunk-2NFLSA4Y.js",
+        "/invitacion/chunk-D7HALAE2.js",
         "/invitacion/chunk-FNOSJO7W.js",
         "/invitacion/chunk-MCQJVZP7.js",
-        "/invitacion/chunk-YHYVIJ3X.js",
         "/invitacion/favicon.ico",
         "/invitacion/index.html",
-        "/invitacion/main-NGY57Z7F.js",
+        "/invitacion/main-MJI4UGJC.js",
         "/invitacion/manifest.webmanifest",
         "/invitacion/styles-UOZKIAWY.css"
       ],
@@ -129,9 +129,9 @@
     "/invitacion/assets/images/paper-texture.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
     "/invitacion/assets/svg/olive-corner.svg": "771ae132917bbf3254f6bea4df1e19f7bb54e5a8",
     "/invitacion/chunk-2NFLSA4Y.js": "a26cd3e959939fe26b8cfc160ad681ba7b6b4468",
+    "/invitacion/chunk-D7HALAE2.js": "3213ab72d8f560ceef42c2917de45c7e82e5376b",
     "/invitacion/chunk-FNOSJO7W.js": "74eb0306b2dfc79c949d210c7b254af9ac4af5a2",
     "/invitacion/chunk-MCQJVZP7.js": "eb5ff03b4782463e670a7de8951e72fa9865234b",
-    "/invitacion/chunk-YHYVIJ3X.js": "05741d752c7cfc40ef6c4e7a6fc34ea88b2b8ac8",
     "/invitacion/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "/invitacion/floral/bottom-left.png": "cab1904eb3b041429c25f23d1edd5e08267eb110",
     "/invitacion/floral/floral-corners.png": "4645a4392d0dae4f090764e0002b4aed1fa0ca8d",
@@ -203,8 +203,8 @@
     "/invitacion/images/beso.jpeg": "e9d36a2d4423185498868d6b15d930c7bf41adb7",
     "/invitacion/images/foto1.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
     "/invitacion/images/paper-texture.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
-    "/invitacion/index.html": "31cd79087a7db580321cbf71b7e564c2e12e20fd",
-    "/invitacion/main-NGY57Z7F.js": "3777f555db7ae4834d303644e9fabd52f17d18cd",
+    "/invitacion/index.html": "d723496a761c34bc6da4a101b3020db8367ce12a",
+    "/invitacion/main-MJI4UGJC.js": "97b0adc9b16c1d8024a6e32378de7033a0b87ba6",
     "/invitacion/manifest.webmanifest": "95a10b23f09463ec2318bca1c27954dbeba79f38",
     "/invitacion/media/foto1-NLUIMDKQ.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
     "/invitacion/media/olive-corner-VAHWWRSL.svg": "771ae132917bbf3254f6bea4df1e19f7bb54e5a8",
