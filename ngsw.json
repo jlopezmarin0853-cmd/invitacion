@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1795751635837,
+  "timestamp": 1795752314272,
   "index": "/invitacion/index.html",
   "assetGroups": [
     {
@@ -14,10 +14,10 @@
         "/invitacion/chunk-2NFLSA4Y.js",
         "/invitacion/chunk-FNOSJO7W.js",
         "/invitacion/chunk-MCQJVZP7.js",
-        "/invitacion/chunk-WXMEGQPF.js",
+        "/invitacion/chunk-ZNMPYZJO.js",
         "/invitacion/favicon.ico",
         "/invitacion/index.html",
-        "/invitacion/main-MTNCFVBZ.js",
+        "/invitacion/main-IT2AU37B.js",
         "/invitacion/manifest.webmanifest",
         "/invitacion/styles-JSIAZSUD.css"
       ],
@@ -107,6 +107,8 @@
         "/invitacion/images/beso.jpeg",
         "/invitacion/images/foto1.jpeg",
         "/invitacion/images/paper-texture.png",
+        "/invitacion/media/foto1-NLUIMDKQ.jpeg",
+        "/invitacion/media/paper-texture-ZLQZ2DFX.png",
         "/invitacion/preview.png",
         "/invitacion/svg/cj-monogram.svg",
         "/invitacion/svg/wax-seal.svg"
@@ -125,7 +127,7 @@
     "/invitacion/chunk-2NFLSA4Y.js": "a26cd3e959939fe26b8cfc160ad681ba7b6b4468",
     "/invitacion/chunk-FNOSJO7W.js": "74eb0306b2dfc79c949d210c7b254af9ac4af5a2",
     "/invitacion/chunk-MCQJVZP7.js": "eb5ff03b4782463e670a7de8951e72fa9865234b",
-    "/invitacion/chunk-WXMEGQPF.js": "8c71cc692f6c0325be0c3ae8276c83508d743b12",
+    "/invitacion/chunk-ZNMPYZJO.js": "bd449eebeb05986e4d7a58458db63002a769251a",
     "/invitacion/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "/invitacion/floral/bottom-left.png": "cab1904eb3b041429c25f23d1edd5e08267eb110",
     "/invitacion/floral/floral-corners.png": "4645a4392d0dae4f090764e0002b4aed1fa0ca8d",
@@ -197,9 +199,11 @@
     "/invitacion/images/beso.jpeg": "e9d36a2d4423185498868d6b15d930c7bf41adb7",
     "/invitacion/images/foto1.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
     "/invitacion/images/paper-texture.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
-    "/invitacion/index.html": "5581b20393847d4b70b8a66b34fb590ed41a6928",
-    "/invitacion/main-MTNCFVBZ.js": "8893736bfc1efc2506bd7587bfe7635bf4d476ce",
+    "/invitacion/index.html": "83e744d8305526ae75d31f9484879306b044aff5",
+    "/invitacion/main-IT2AU37B.js": "8aa64ee127f7a2f2cd27f63d9cbc6b0acf1b3457",
     "/invitacion/manifest.webmanifest": "95a10b23f09463ec2318bca1c27954dbeba79f38",
+    "/invitacion/media/foto1-NLUIMDKQ.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
+    "/invitacion/media/paper-texture-ZLQZ2DFX.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
     "/invitacion/preview.png": "04ea2fc6cf1ea903a13d95e745821042075a9d3e",
     "/invitacion/styles-JSIAZSUD.css": "e5de657554ea74feec1217081238d9e3f3fef285",
     "/invitacion/svg/cj-monogram.svg": "8c39bf0c25c8dabc4fc62be174b20cb3511f5044",
