@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1795839268071,
+  "timestamp": 1795841033111,
   "index": "/invitacion/index.html",
   "assetGroups": [
     {
@@ -12,12 +12,12 @@
       },
       "urls": [
         "/invitacion/chunk-2NFLSA4Y.js",
+        "/invitacion/chunk-4JNLOYEB.js",
         "/invitacion/chunk-FNOSJO7W.js",
-        "/invitacion/chunk-I4CQT6EO.js",
         "/invitacion/chunk-MCQJVZP7.js",
         "/invitacion/favicon.ico",
         "/invitacion/index.html",
-        "/invitacion/main-HQGJU6G2.js",
+        "/invitacion/main-5GJDKFN3.js",
         "/invitacion/manifest.webmanifest",
         "/invitacion/styles-UOZKIAWY.css"
       ],
@@ -129,8 +129,8 @@
     "/invitacion/assets/images/paper-texture.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
     "/invitacion/assets/svg/olive-corner.svg": "771ae132917bbf3254f6bea4df1e19f7bb54e5a8",
     "/invitacion/chunk-2NFLSA4Y.js": "a26cd3e959939fe26b8cfc160ad681ba7b6b4468",
+    "/invitacion/chunk-4JNLOYEB.js": "66be57950a160100b4e03f09db0113f6b98f7688",
     "/invitacion/chunk-FNOSJO7W.js": "74eb0306b2dfc79c949d210c7b254af9ac4af5a2",
-    "/invitacion/chunk-I4CQT6EO.js": "8edb1746cbf6f77ae3ece6ca8d838c4637b152b2",
     "/invitacion/chunk-MCQJVZP7.js": "eb5ff03b4782463e670a7de8951e72fa9865234b",
     "/invitacion/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
     "/invitacion/floral/bottom-left.png": "cab1904eb3b041429c25f23d1edd5e08267eb110",
@@ -203,8 +203,8 @@
     "/invitacion/images/beso.jpeg": "e9d36a2d4423185498868d6b15d930c7bf41adb7",
     "/invitacion/images/foto1.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
     "/invitacion/images/paper-texture.png": "64fafdcfd589d2bdbfc7cb33752defc149bb5f3e",
-    "/invitacion/index.html": "49b09c4ff7c04d6ec4db6a37e8d732214230f087",
-    "/invitacion/main-HQGJU6G2.js": "c7f538342f8beb55d98d39d3fd4867e4ab24f26a",
+    "/invitacion/index.html": "f38174747a8221e6bdd3ae18be4569298cfb052e",
+    "/invitacion/main-5GJDKFN3.js": "c42c021952ef058bc48ce5531d8cc7ddaaf91c64",
     "/invitacion/manifest.webmanifest": "95a10b23f09463ec2318bca1c27954dbeba79f38",
     "/invitacion/media/foto1-NLUIMDKQ.jpeg": "e56a90a10ce6b42a622dab9c8fe5febc6c211b5f",
     "/invitacion/media/olive-corner-VAHWWRSL.svg": "771ae132917bbf3254f6bea4df1e19f7bb54e5a8",
